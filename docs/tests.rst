@@ -6,7 +6,7 @@ Refer to :doc:`index`
 Greet
 ------------
 This checks that the greet function works correctly: 
-.. code-block:: python
+.. code-block:: console
     ...
 
 Minimum
@@ -21,4 +21,3 @@ To use Lumache, first install it using pip:
 
    (.venv) $ pip install lumache
 
-   
