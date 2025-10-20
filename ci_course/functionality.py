@@ -17,7 +17,6 @@ def greet(name=""):
     """
     return f"Hello {name}"
 
-
 def minimum(*args):
     """
     A function taking some arguments and returning the minimum number among the arguments.
