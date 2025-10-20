@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ci_docs'
+project = 'cli'
 copyright = '2025, aryaman'
 author = 'aryaman'
 
@@ -16,7 +16,7 @@ author = 'aryaman'
 extensions = []
 
 templates_path = ['_templates']
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 
