@@ -22,4 +22,3 @@ def test_minimum():
 def test_noargs():
     with pytest.raises(TypeError):
         ci_course.minimum("min", "max")
-        
