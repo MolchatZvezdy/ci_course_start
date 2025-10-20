@@ -12,6 +12,9 @@ documentation for details.
 
 
 .. toctree::
-   
-   tests
+   :maxdepth: 2
+   :caption: Contents: 
+   usage
+
+
 
