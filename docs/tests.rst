@@ -7,7 +7,7 @@ Greet
 ------------
 This checks that the greet function works correctly: 
 .. code-block:: console
-    ...
+    yyyyy
 
 Minimum
 ------------
