@@ -18,6 +18,8 @@ def test_minimum():
     assert ci_course.minimum(1.2, 2.3) == 1.2
     assert ci_course.minimum(-1.2, -3) == -3
 
+
 def test_noargs():
     with pytest.raises(TypeError):
         ci_course.minimum("min", "max")
+        
