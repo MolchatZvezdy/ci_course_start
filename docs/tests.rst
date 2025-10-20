@@ -6,9 +6,10 @@ Refer to :doc:`index`
 Greet
 ------------
 This checks that the greet function works correctly: 
+
 .. code-block:: console
 
-    (.venv) $ pip install lumache
+    ...
 
 Minimum
 ------------
