@@ -17,6 +17,7 @@ def greet(name=""):
     """
     return f"Hello {name}"
 
+
 def minimum(*args):
     """
     A function taking some arguments and returning the minimum number among the arguments.
@@ -32,10 +33,11 @@ def minimum(*args):
         The minimum
     """
     if not any([isinstance(arg, numbers.Real) for arg in args]):
-        return
+        raise TypeError
 
     the_min = float("inf")
     for arg in args:
         if isinstance(arg, numbers.Real):
             the_min = min(the_min, arg)
+
     return the_min
